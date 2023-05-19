@@ -32,7 +32,7 @@ nav a {
 
 .button-box {
     text-align: center;
-    font-family: "Wendy One";
+    
 
 }
 
@@ -47,6 +47,7 @@ main section {
 
 body {
     background-color: #4F8EBA;
+    font-size: 22px;
 }
 
 header {
@@ -61,15 +62,20 @@ nav a:hover {
 .book, .join {
     background-color: #cada17;
     text-decoration: none;
+    font-family: "Wendy One";
+    font-size: 18px;
 }
 
 .book:hover, .join:hover {
     background-color: #E458A7;
 }
 
-.msg {
-    color: navy;
+.msg p {
+    color: rgb(255, 255, 255);
     font-family: "Fuzzy Bubbles";
+    font-size: .8em;
+    line-height: 1.5em;
+
 }
 
 footer {
@@ -104,6 +110,11 @@ footer p a:hover {
     max-width: 600px;
     text-align: center;
 
+}
+
+.home-title {
+    font-family: "Fuzzy Bubbles", "Wendy One", Helvetica, sans-serif;
+    font-size: 2em;
 }
 
 * {
