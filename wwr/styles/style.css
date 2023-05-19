@@ -12,11 +12,15 @@
 
 nav a {
     font-family: Helvetica;
-    padding: 2.0em;
-    margin: 80px;
-    max-width: 1600px;
-    
+    display: inline;
+    padding: 25px;
+}
 
+.logo {
+    max-width: 250px;
+    margin: 0 auto;
+    padding-left: 10px;
+    display: inline;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -28,6 +32,7 @@ nav a {
 
 .button-box {
     text-align: center;
+    font-family: "Wendy One";
 
 }
 
@@ -63,16 +68,12 @@ nav a:hover {
 }
 
 .msg {
-    background-color: #62DD5E;
+    color: navy;
     font-family: "Fuzzy Bubbles";
 }
 
 footer {
     background-color: #62DD5E;
-}
-
-.logo {
-    max-width: 100%;
 }
 
 footer a {
@@ -81,6 +82,8 @@ footer a {
 
 footer p {
     font-size: 1.2em;
+    font-family: Helvetica;
+    font-size: .90em;
 }
 
 footer p a:hover {
@@ -101,4 +104,8 @@ footer p a:hover {
     max-width: 600px;
     text-align: center;
 
+}
+
+* {
+    border:1px solid red
 }
