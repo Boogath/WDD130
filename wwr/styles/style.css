@@ -147,6 +147,11 @@ footer .social img {
     padding-top: 10px;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
 /*
 * {
     border:1px solid red
