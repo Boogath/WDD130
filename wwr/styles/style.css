@@ -18,11 +18,7 @@ nav a {
 }
 
 .logo {
-    max-width: 250px;
-    margin: 0 auto;
-    padding-left: 10px;
-    display: inline;
-    padding-top: 5px;
+   max-width: 100px;
 }
 
 #hero-msg h1, #hero-msg h4 {
