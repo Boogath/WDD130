@@ -123,6 +123,11 @@ footer .social img {
     padding-top: 15px;
 }
 
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
 .home-grid h2 {
     font-family: "Fuzzy Bubbles";
     color: #cada17;
@@ -170,6 +175,10 @@ nav {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
+}
+
+#hero-img {
+    width: 100%;
 }
 
 .rivers-card {
