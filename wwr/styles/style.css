@@ -97,6 +97,11 @@ nav a:hover {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+.msg h2 {
+    color: #fcfbfb;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+}
+
 footer {
     background-color: #62DD5E;;
     padding: 25px 50px;
