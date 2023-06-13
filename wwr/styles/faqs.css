@@ -5,12 +5,12 @@
 }
 
 .header {
-
+    display: inline;
 }
 
 #logo {
-    max-width: 25px;
-    max-height: 25px;
+    max-width: 100px;
+    max-height: 100px;
     text-align: left;
 
 }
@@ -38,7 +38,6 @@
     padding: 20px;
     font-size: 30px;
     text-align: center;
-    font-size: 10em;
 }
 /* 
 * {
