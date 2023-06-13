@@ -6,13 +6,17 @@
 
 .header {
     display: inline;
+    background-color: #4F8EBA;
+}
+
+nav a {
+    text-align: center;
 }
 
 #logo {
     max-width: 100px;
     max-height: 100px;
     text-align: left;
-
 }
 
 #brand {
@@ -21,8 +25,11 @@
     max-width: 300px;
     text-align: center;
     border: 2px solid black;
-    border-radius: 25px;
-    
+    border-radius: 25px; 
+    left: 50%;
+    top: 200px;
+    margin-left: 40%;
+
     
 }
 
