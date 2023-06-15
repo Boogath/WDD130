@@ -28,24 +28,46 @@ nav a {
     border-radius: 25px; 
     left: 50%;
     top: 200px;
-    margin-left: 40%;
+    margin-left: 45%;    
+}
+ 
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    gap: 100px
+}
 
+.drop-down {
+    border: 2px solid black;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 25px;
+    height: 200px;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    max-width: 800px;
+    z-index: 1;
     
 }
 
-.home-grid {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: rgb(172, 172, 172);
-    padding: 10px;
-}
-
-.grid-item {
-    border: 2px solid black;
-    padding: 20px;
+.drop-down:hover .dropdown-content {
+    display: block;
+    width: 800px;
     font-size: 30px;
     text-align: center;
+    border: 2px solid red;
 }
+
+
+
+
+
 /* 
 * {
     border:1px solid red
