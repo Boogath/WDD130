@@ -23,41 +23,27 @@ Fonts are separated by a | */
   --nav-link-color: #a393eb;
   --nav-background-color: #5e63b6;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: #017dd6;
 }
 
+nav  {
+  list-style-type: none;
+  display: flex;
+}
 
-/*  Look around below...but DON'T CHANGE ANYTHING! */
+nav a {
+  line-height: 3em;
+  text-align: left;
+  font-size: 1.5em;
+  margin: auto;
+}
 
-body {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 4em;
-  font-size: 18px;
-  text-align: center;
+nav img {
+  width: 300px;
+  height: 200px;
+  border: 2px solid #5e63b6;
 }
-img {
-  display: block;
-  margin: 0 auto;
-}
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
-  color: var(--headline-color-on-white);
-}
-h2 {
-  text-align: center;
-}
-hr {
-  height: 3px;
-  margin: 35px 0;
-  background: var(--accent1-color);
-}
-header {
-  padding: 1em;
-  text-align: center;
-  color: var(--headline-color-on-color);
-  background-color: var(--paragraph-background-color);
-}
+
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }
@@ -106,21 +92,12 @@ nav {
   text-align: center;
   font-size: 1.2em;
 }
-nav  {
-  list-style-type: none;
-  display: flex;
 
-}
-nav a {
-  padding:1em;
-  min-width: 120px;
-  text-decoration: none;
-  padding: 10px;
 
-}
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
 }
+
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
