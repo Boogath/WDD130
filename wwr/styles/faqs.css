@@ -4,13 +4,23 @@
     --paragraph-font: "Fuzzy Bubbles", "Wendy One", Helvetica, sans-serif;
 }
 
-.header {
-    display: inline;
-    background-color: #4F8EBA;
+header {
+    background-color: #62DD5E;
+    display: grid;
+    grid-template-columns: 150px auto;
+    
+
 }
 
 nav a {
+    text-decoration: none;
+    color: #4F8EBA;
     text-align: center;
+    max-width:100%;
+}
+
+nav a:hover {
+    background-color: #E458A7;
 }
 
 #logo {
@@ -64,7 +74,31 @@ nav a {
     border: 2px solid red;
 }
 
+footer {
+    background-color: #62DD5E;;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+footer a {
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 1.2em;
+    font-family: Helvetica;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
 
 
 
