@@ -151,3 +151,38 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+.grid {
+  display: inline-grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+}
+
+.grid-item {
+  justify-items: center;
+}
+
+.grid-item img {
+  max-width: 600px;
+  max-height: 400px; 
+}
+
+#waterfall-image {
+  grid-column: 2/4;
+  grid-row: 1/2;
+  border: 2px solid black;
+}
+
+#quotes {
+  grid-column: 5/7;
+  grid-row: 1/2;
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+
+}
+
+#courtney {
+  grid-column: 3/5;
+  grid-row: 3/5;
+  border: 2px solid black;
+}
