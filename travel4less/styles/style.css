@@ -61,6 +61,10 @@ nav {
   font-size: 1.2em;
 }
 
+body {
+  background-color: #f5c7f7;
+
+}
 
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
@@ -77,8 +81,6 @@ nav a:hover {
   grid-template-rows: repeat(20, 100px);
   grid-column-gap: 20px;
   position: fixed;
-  
-  
 }
 
 #waterfall-image {
