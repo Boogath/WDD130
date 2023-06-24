@@ -63,7 +63,6 @@ nav {
 
 body {
   background-color: #f5c7f7;
-
 }
 
 nav a:link, nav a:visited {
@@ -80,7 +79,7 @@ nav a:hover {
   grid-template-columns: repeat(20, 100px);
   grid-template-rows: repeat(20, 100px);
   grid-column-gap: 20px;
-  position: fixed;
+  position: absolute;
 }
 
 #waterfall-image {
@@ -112,17 +111,18 @@ nav a:hover {
 
 #reviews {
   grid-column: 12;
-  grid-row: 8;
+  grid-row: 7;
   border: 2px solid black;
   border-radius: 25px;
   height: 300px;
   width: 400px;
   text-align: center;
+  overflow: auto;
 }
 
 #cabin {
   grid-column: 5;
-  grid-row: 8;
+  grid-row: 7;
   border: 2px solid black;
   border-radius: 25px;
   width: 400px;
@@ -130,12 +130,17 @@ nav a:hover {
 }
 
 footer {
-  background-color: #62DD5E;;
-  padding: 25px 50px;
-  margin-top: 200px; 
+  background-color: #62DD5E;
+  padding: 25px 10px;
+  margin-top: 950px; 
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 20px;
 }
 
 footer a {
