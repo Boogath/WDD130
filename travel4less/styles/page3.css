@@ -174,3 +174,25 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+footer {
+  background-color: #62DD5E;;
+  padding: 25px 50px;
+  margin-top: 200px; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 1.2em;
+  font-family: Helvetica;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
