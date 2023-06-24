@@ -69,6 +69,13 @@ body p {
   font-size: 1.2em;
 }
 
+.scrunch {
+  margin-left: 600px;
+  margin-right: 600px;
+  border: 12px dotted #5e63b6;
+  font-weight: bold;
+}
+
 #family {
   margin: 100px;
   max-height: 600px;
@@ -77,24 +84,19 @@ body p {
 
 #bryce {
   float: right;
-  max-width: 50%
+  max-width: 1000px;
 }
 
 #image1 {
-  float: left;
+  float: center;
   max-width: 600px;
   
-}
-
-#image2 {
-  max-width: 600px;
-  float: right;
 }
 
 footer {
   background-color: #62DD5E;;
   padding: 25px 50px;
-  margin-top: 200px; 
+  margin-top: 100px; 
   display: flex;
   justify-content: space-around;
   align-items: center;
