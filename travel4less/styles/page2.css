@@ -104,12 +104,17 @@ img {
 }
 
 footer {
-  background-color: #62DD5E;;
-  padding: 25px 50px;
-  margin-top: 200px; 
+  background-color: #62DD5E;
+  padding: 25px 10px;
+  margin-top: 950px; 
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 20px;
 }
 
 footer a {
