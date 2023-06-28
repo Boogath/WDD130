@@ -138,7 +138,7 @@ nav a:hover {
 }
 
 footer {
-  background-color: #3093e9;
+  background-color: #13c4d0;
   padding: 25px 10px; 
   display: flex;
   justify-content: space-around;
@@ -160,4 +160,5 @@ footer p {
 
 footer p a:hover {
   text-decoration: underline;
+  background-color: white;
 }
