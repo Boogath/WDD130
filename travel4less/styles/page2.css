@@ -69,17 +69,13 @@ body {
   text-align: center;
   font-size: 3em;
   font-family: "Tsukimi Rounded";
-  border: 4px solid #27296d;
-  max-width: 300px;
-  border-radius: 40px;
-  margin-left: 1100px;
   margin-top: 20px;
 }
 
 .content {
   font-family: "Baskervville";
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 300px;
+  margin-right: 300px;
   font-size: 1.2em;
   
 }
@@ -123,7 +119,7 @@ footer a {
 
 footer p {
   font-size: 1.2em;
-  font-family: Helvetica;
+  font-family: "Baskervville";
 }
 
 footer p a:hover {
