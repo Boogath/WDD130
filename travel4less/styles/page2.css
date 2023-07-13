@@ -16,14 +16,14 @@ Fonts are separated by a | */
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #017dd6;  /* headlines on a white background */ 
-  --headline-color-on-color: #076B0A; /* headlines on a colored background */ 
+  --headline-color-on-color: #5e63b6; /* headlines on a colored background */ 
   --paragraph-color-on-white: #5e63b6; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #f5c7f7  ;
   --nav-link-color: #a393eb;
   --nav-background-color: #5e63b6;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: #017dd6;
 }
 
 
