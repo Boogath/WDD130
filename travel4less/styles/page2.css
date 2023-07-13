@@ -55,6 +55,11 @@ p {
   padding: 1em;
 }
 
+li {
+  font-family: "Tsukimi Rounded";
+  color: var(--paragraph-color-on-white);
+}
+
 nav {
   background-color: var(--nav-background-color);
   line-height: 3em;
