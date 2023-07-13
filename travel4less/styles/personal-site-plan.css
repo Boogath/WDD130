@@ -5,22 +5,24 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #27296d   ;
-  --secondary-color: #5e63b6 ;
-  --accent1-color: #a393eb;
+  --primary-color: #008cba;
+  --secondary-color: #ffffff;
+  --accent1-color: #13c4d0;
   --accent2-color: #f5c7f7;
+  --accent3-color: #5e63b6;
+  
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Baskervville";
   --paragraph-font: "Poppins", "Tsukimi Rounded", sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #017dd6;  /* headlines on a white background */ 
-  --headline-color-on-color: #076B0A; /* headlines on a colored background */ 
+  --headline-color-on-white: #008cba;  /* headlines on a white background */ 
+  --headline-color-on-color: #5e63b6; /* headlines on a colored background */ 
   --paragraph-color-on-white: #5e63b6; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #f5c7f7  ;
-  --nav-link-color: #a393eb;
+  --paragraph-background-color: #f5c7f7;
+  --nav-link-color: #f5c7f7;
   --nav-background-color: #5e63b6;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
