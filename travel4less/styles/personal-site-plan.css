@@ -78,7 +78,7 @@ p {
 .colors th {
   background-color: #999;
 }
-.colors td{
+.colors tr{
   width: 25%;
   height: 3em;
 }
@@ -94,6 +94,10 @@ p {
 }
 .accent2{
   background-color: var(--accent2-color);
+}
+
+.accent3 {
+  background-color: var(--accent3-color);
 }
 
 p.colored {
